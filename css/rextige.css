@@ -460,7 +460,7 @@ ul {
 
   .contact-menu {
     margin-right: 3rem;
-    margin-top: 5rem;
+    margin-top: 2.8rem;
   }
 
   .contact-menu ul {
@@ -574,5 +574,144 @@ ul {
   /* .video {
     display: block;
     margin: auto;
+  } */
+}
+
+@media (max-width: 320px) {
+  /* contacts */
+  .navbar .contacts {
+    display: none;
+  }
+
+  .soc-menu ul {
+    justify-content: space-between;
+  }
+
+  .soc-menu ul li {
+    background-color: var(--dark-color);
+    color: var(--light-color);
+  }
+
+  .contact-menu {
+    margin-right: 0rem;
+    margin-top: 2.8rem;
+  }
+
+  .contact-menu ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+
+  .contact-menu ul li {
+    font-size: 1rem;
+  }
+
+  /* hamburger-btn */
+  .hamburger-btn {
+    display: block;
+    background-color: none;
+    border: none;
+    padding: 0.3em;
+    border-radius: 1.5em;
+    transition: right 0.3s ease-in-out;
+    z-index: 1000;
+  }
+
+  .navbar .main-menu ul {
+    display: none;
+  }
+
+  .logo {
+    width: 5rem;
+    margin: auto;
+  }
+
+  .navbar .cart {
+    display: inline-block;
+  }
+
+  .navbar .cart i {
+    color: var(--dark-color);
+  }
+
+  .hero {
+    background: url(/images/bgbg.jpeg) no-repeat;
+    /* background-position: bottom;  */
+    background-size: 20rem 38rem;
+    height: 38rem;
+    margin-bottom: 0;
+  }
+
+  .hero-content {
+    display: none;
+  }
+
+  .boast {
+    display: block;
+  }
+
+  .ad {
+    display: block;
+  }
+
+  .ad .ad-text {
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .ad .ad-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ad .ad-grid p {
+    width: 90%;
+    font-size: 2rem;
+  }
+
+  .ad .ad-grid .card:first-child,
+  .ad .ad-grid .card:nth-child(3) {
+    height: 100%;
+  }
+
+  .footer {
+    display: block;
+  }
+
+  .footer .footer-content .footer-grid {
+    grid-template-columns: 2fr;
+  }
+
+  .footer .card {
+    margin: 0;
+  }
+
+  .footer .footer-email-box p {
+    width: 100%;
+    margin: auto;
+  }
+
+  .footer .footer-email .email-input {
+    flex-direction: column;
+  }
+
+  .footer input[type="email"] {
+    margin: 1.25em 0;
+    width: 100%;
+  }
+
+  .footer .footer-grid > div {
+    text-align: center;
+  }
+
+  .footerlast p {
+    font-size: 1rem;
+  }
+
+  /* .card {
+    border-radius: 1em;
+    padding: 0.2rem;
   } */
 }
