@@ -5,7 +5,7 @@
 }
 
 :root {
-  --primary-color: #0057A4;
+  --primary-color: #0057a4;
   --light-color: #fff;
   --dark-color: #000;
 }
@@ -115,7 +115,7 @@ ul {
 
 /* Hero section */
 .hero {
-  background: url(/Rextige/bgbg.jpeg) no-repeat;
+  background: url(/images/bgbg.jpeg) no-repeat;
   height: 62rem;
   position: relative;
   margin-bottom: 0;
@@ -172,7 +172,7 @@ ul {
 
 .ad-grid .card p {
   font-weight: bolder;
-  color:var(--primary-color);
+  color: var(--primary-color);
   text-align: center;
   font-size: 3rem;
 }
@@ -216,15 +216,14 @@ ul {
 }
 
 .footer .footer-email {
-  background-color: #0057A4;
-  color: var(--light-color)
+  background-color: #0057a4;
+  color: var(--light-color);
 }
 
 .footer .footer-email-box {
   /* min-width: 22rem; */
   max-width: 100%;
 }
-
 
 .footer .footer-email-box .email-input {
   display: flex;
@@ -236,7 +235,7 @@ ul {
 
 .footer .footer-contact ul li {
   margin-top: 1.5em;
-  color:#e3d8d8;
+  color: #e3d8d8;
 }
 
 .footer input[type="email"] {
@@ -378,7 +377,7 @@ ul {
 }
 
 .bg-dark {
-  background:var(--dark-color);
+  background: var(--dark-color);
   color: #fff;
 }
 
@@ -516,7 +515,6 @@ ul {
 
   .boast {
     display: block;
-  
   }
 
   .ad {
@@ -557,7 +555,7 @@ ul {
 
   .footer .footer-email-box p {
     width: 100%;
-    margin:auto;
+    margin: auto;
   }
 
   .footer .footer-email .email-input {
@@ -572,7 +570,6 @@ ul {
   .footer .footer-grid > div {
     text-align: center;
   }
-
 
   /* .video {
     display: block;
