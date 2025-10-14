@@ -431,19 +431,12 @@ ul {
   margin: 0.6em 0;
 }
 
-.mobile-menu .mob-ul li {
-  /* border-bottom-style: solid;
-  border-bottom-width: 0.6px;
-  border-bottom-color: rgba(0, 0, 0, 0.2);
-  border-bottom-right-radius: 20px; */
-}
-
 .mobile-menu ul li a {
   font-size: 1.25rem;
   transition: 0.2s;
 }
 
-@media (max-width: 42rem) {
+@media only screen and (max-width: 42rem) {
   /* contacts */
   .navbar .contacts {
     display: none;
@@ -570,14 +563,9 @@ ul {
   .footer .footer-grid > div {
     text-align: center;
   }
-
-  /* .video {
-    display: block;
-    margin: auto;
-  } */
 }
 
-@media (max-width: 20rem) {
+@media only screen and (max-width: 320px) {
   /* contacts */
   .navbar .contacts {
     display: none;
