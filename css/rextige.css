@@ -577,7 +577,7 @@ ul {
   } */
 }
 
-@media (max-width: 320px) {
+@media (max-width: 20rem) {
   /* contacts */
   .navbar .contacts {
     display: none;
