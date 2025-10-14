@@ -246,20 +246,20 @@ ul {
   width: 13.4rem;
 }
 
-/* footerlast-section */
-.footerlast {
+/* mark-section */
+.mark {
   background-color: #000;
   height: 4rem;
   margin-top: 0;
 }
 
-.footerlast .container-sm {
+.mark .container-sm {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.footerlast p {
+.mark p {
   color: #fff;
   font-size: 1.2rem;
   font-weight: 400;
@@ -637,7 +637,6 @@ ul {
 
   .hero {
     background: url(/images/bgbg.jpeg) no-repeat;
-    /* background-position: bottom;  */
     background-size: 20rem 38rem;
     height: 38rem;
     margin-bottom: 0;
@@ -706,7 +705,7 @@ ul {
     text-align: center;
   }
 
-  .footerlast p {
+  .mark p {
     font-size: 1rem;
   }
 
