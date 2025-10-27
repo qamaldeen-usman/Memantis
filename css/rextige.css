@@ -496,7 +496,6 @@ ul {
 
   .hero {
     background: url(/images/bgbg.jpeg) no-repeat;
-    /* background-position: bottom;  */
     background-size: 38rem 38rem;
     height: 38rem;
     margin-bottom: 0;
@@ -564,7 +563,7 @@ ul {
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 20rem) {
   /* contacts */
   .navbar .contacts {
     display: none;
@@ -696,8 +695,4 @@ ul {
     font-size: 1rem;
   }
 
-  /* .card {
-    border-radius: 1em;
-    padding: 0.2rem;
-  } */
 }
